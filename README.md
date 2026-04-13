@@ -26,47 +26,89 @@ This framework is designed for studying:
 ## Workflow schema
 
 INPUT: male_SMARTseq2.h5ad, ovary.h5ad
+
 │
+
 QC
+
 │
+
 └── filtered.h5ad
+
 │
+
 Normalization
+
 │
+
 └── normalized.h5ad
+
 │
+
 PCA / UMAP
+
 │
+
 └── dimensionality.h5ad
+
 │
+
 Clustering
+
 │
+
 └── clusters.h5ad
+
 │
+
 Cell type annotation
+
 │
+
 └── annotated.h5ad
+
 │
+
 Differential expression
+
 │
+
 └── DE_genes.csv
+
 │
+
 Sexual conflict enrichment
+
 │
+
 └── conflict_score.csv
+
 │
+
 GO enrichment 
+
 │
+
 └── GO_results/ 
+
 │
+
 KEGG pathway
+
 │
+
 └── KEGG_results/
+
 │
+
 Pseudotime
+
 │
+
 └── pseudotime.h5ad
+
 │
+
 OUTPUT: plots (UMAP_sex.pdf, UMAP_celltype.pdf, GO_barplot.pdf, KEGG_barplot.pdf, pseudotime.pdf)
 
 
